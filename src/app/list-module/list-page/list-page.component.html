@@ -1,0 +1,4 @@
+<div class="container">
+  <app-item-input (addItem)="addTask($event)"></app-item-input>
+<app-to-do-list [list]="list" (deleteItem)="deleteTask($event)" (updateItem)="setTaskDone($event)"></app-to-do-list>
+</div>

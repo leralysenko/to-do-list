@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "lera@gmail.com",
+      "password": "123"
+    }
+  ],
+  "lists": [
+    {
+      "userList": [
+        {
+          "name": "2 zadanie",
+          "isDone": true
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userList": [
+        {
+          "name": "first",
+          "isDone": false
+        },
+        {
+          "name": "123",
+          "isDone": false
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
